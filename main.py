@@ -81,7 +81,7 @@ async def download_and_rename_file(event):
     else:
         user_id = event.sender_id
 
-        user_directory = os.path.join(".", str(user_id))
+        user_directory = str(user_id)
         try:
             shutil.rmtree(user_directory)
             print(f"Directory and all its contents deleted successfully in directory: {user_directory}")
@@ -258,7 +258,7 @@ async def handle_root(event):
             else:
 
                 user_id = event.sender_id
-                user_directory = os.path.join(".", str(user_id))
+                user_directory = str(user_id)
 
                 # Remove the existing user directory
                 try:
