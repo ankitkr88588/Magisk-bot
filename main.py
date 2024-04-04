@@ -97,7 +97,7 @@ async def download_and_rename_file(event):
 
         download_folder =user_directory # Specify the download folder
         os.makedirs(download_folder, exist_ok=True)
-        downloaded_location = await client.download_media(event.file,f"{download_folder}/boot.img")
+        downloaded_location = await client.download_media(event.document,f"{download_folder}/boot.img")
 
 
         #await event.respond("File downloaded and renamed to 'boot.img' successfully.")
