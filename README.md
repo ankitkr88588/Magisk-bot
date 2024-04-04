@@ -3,7 +3,7 @@ git clone https://github.com/ankitkr88588/Work/
    ```
 1. put this for git clone
    ```
-   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
+   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
    ```
 2. Navigate to the 'Work' directory:
    ```
