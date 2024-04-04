@@ -1,9 +1,9 @@
    ```
-git clone https://github.com/ankitkr88588/Work/
+git clone https://github.com/ankitkr88588/Magisk-bot/
    ```
 1. put this for git clone
    ```
-   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
+   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
    ```
 2. Navigate to the 'Work' directory:
    ```
