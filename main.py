@@ -159,7 +159,7 @@ async def handle_magisk_version(event):
     else:
         await event.answer("User's download directory not found. Please restart the process.")
 
-    os.chdir(user_directory)
+    os.chdir(strt(user_directory))
 
     # Add the commands to move, rename, and modify files
     commands = [
