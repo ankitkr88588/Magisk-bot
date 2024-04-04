@@ -1,0 +1,708 @@
+Starting zipper.py...
+Starting zipper.py...
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 67, in callback
+    parts = line.strip().split(': ')
+FileNotFoundError: [Errno 2] No such file or directory: 'X6837.txt'
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 67, in callback
+    parts = line.strip().split(': ')
+FileNotFoundError: [Errno 2] No such file or directory: 'cancel.txt'
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 60, in callback
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/events/callbackquery.py", line 343, in delete
+    return await self._client.delete_messages(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 1299, in delete_messages
+    return await self([functions.messages.DeleteMessagesRequest(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 83, in _call
+    raise MultiError(exceptions, results, requests)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 73, in _call
+    result = await f
+telethon.errors.rpcerrorlist.MessageDeleteForbiddenError: You can't delete one of the messages you tried to delete, most likely because it is a service message. (caused by DeleteMessagesRequest)
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 67, in callback
+    parts = line.strip().split(': ')
+FileNotFoundError: [Errno 2] No such file or directory: 'cancel.txt'
+Starting zipper.py...
+Starting zipper.py...
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if add_link or add_file or selected_file =='new_device':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on handle_links
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 196, in handle_links
+    else:
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/tl/custom/message.py", line 791, in respond
+    return await self._client.send_message(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/messages.py", line 827, in send_message
+    return await self.send_file(
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/uploads.py", line 430, in send_file
+    return self._get_response_message(request, await self(request), entity)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/users.py", line 133, in _call
+    raise ValueError('Request was unsuccessful {} time(s)'
+ValueError: Request was unsuccessful 6 time(s)
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+Unhandled exception on callback
+Traceback (most recent call last):
+  File "/home/u219291/.local/lib/python3.9/site-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/u219291/Work/firmware/firmware.py", line 53, in callback
+    if selected_file == 'back':
+NameError: name 'add_link' is not defined
+./main.sh: line 23: 27778 Killed                  nohup python3 firmware.py
+./main.sh: line 23: 27779 Killed                  sleep 3600
+Starting zipper.py...
