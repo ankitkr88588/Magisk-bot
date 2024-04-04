@@ -96,7 +96,7 @@ async def download_and_rename_file(event):
 
         download_folder =user_directory # Specify the download folder
         os.makedirs(download_folder, exist_ok=True)
-        downloaded_location = await fast_download(client, event, event, download_folder)
+        downloaded_location = await message.download_media(download_folder)
 
         new_file_path = os.path.join(user_directory, 'boot.img')
         os.rename(downloaded_location, new_file_path)
@@ -275,7 +275,7 @@ async def handle_root(event):
 
                 download_folder = user_directory  # Specify the download folder
                 os.makedirs(download_folder, exist_ok=True)
-                downloaded_location = await fast_download(client, replied_message, replied_message, download_folder)
+                downloaded_location = await message.download_media(download_folder)
 
                 new_file_path = os.path.join(user_directory, 'boot.img')
                 os.rename(downloaded_location, new_file_path)
