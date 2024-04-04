@@ -1,5 +1,5 @@
    ```
-git clone https://github.com/ankitkr88588/Work/
+git clone https://github.com/ankitkr88588/Magisk-bot
    ```
 1. put this for git clone
    ```
