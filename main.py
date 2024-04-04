@@ -22,7 +22,7 @@ async def start(event):
         "Send me stock-boot.img file or reply /root to your stock-boot.img to initiate the patching process.\n\n"
         "For any assistance or issues, you can contact our support:\n"
         "Telegram Support group: @nub_coder_s\n")
-    user_directory = "."
+    user_directory = "Magisk-flasher"
     user_id = str(event.sender_id)
     user_path = os.path.join(user_directory, user_id)
 
@@ -81,7 +81,7 @@ async def download_and_rename_file(event):
     else:
         user_id = event.sender_id
 
-        user_directory = str(user_id)
+        user_directory = os.path.join("Magisk-flasher", str(user_id))
         try:
             shutil.rmtree(user_directory)
             print(f"Directory and all its contents deleted successfully in directory: {user_directory}")
@@ -152,7 +152,7 @@ async def handle_magisk_version(event):
         await event.edit(f"You selected: {version_text}. Running commands to patch boot.img")
 
         # Unzip the APK file from /home/u201853/Magisk-flasher
-        apk_file_path = os.path.join(".", f"{version_text}.apk")
+        apk_file_path = os.path.join("Magisk-flasher", f"{version_text}.apk")
         subprocess.run(["unzip", apk_file_path, "-d", user_directory])
         await event.edit(f'Successfully unzipped MAGISK\nNow unpacking your boot.img')
 
@@ -258,7 +258,7 @@ async def handle_root(event):
             else:
 
                 user_id = event.sender_id
-                user_directory = str(user_id)
+                user_directory = os.path.join("Magisk-flasher", str(user_id))
 
                 # Remove the existing user directory
                 try:
