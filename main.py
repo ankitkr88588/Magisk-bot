@@ -126,7 +126,7 @@ async def download_and_rename_file(event):
 @client.on(events.CallbackQuery())
 async def handle_magisk_version(event):
     user_id = event.sender_id
-    user_directory = user_download_directories.get(user_id)
+    user_directory =f"{cpath}/{user_id}"
 
     if user_directory:
         selected_version = int(event.data.decode("utf-8"))
