@@ -1,19 +1,20 @@
+#deploy to local system
+1. clone this repository   
    ```
 git clone https://github.com/ankitkr88588/Magisk-bot/
    ```
-1. put this for git clone
+2. Navigate to the Magisk-bot directory:
    ```
-   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
-   ```
-2. Navigate to the 'Work' directory:
-   ```
-   cd Work
+   cd Magisk-bot
    ```
 
-3. Run the script using nohup to keep it running in the background:
+3. Run the main.sh script to install the requirements and start the bot
    ```
-   nohup ./l.sh &
+   chmod +x main.sh
    ```
+```
+./main.sh
+```
 
-This will start the code running in the background on your local machine.
+you can use the tmux package to run the bot in background 
 # Magisk-bot
