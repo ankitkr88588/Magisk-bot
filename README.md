@@ -1,6 +1,7 @@
 #deploy to local system
 1. clone this repository   
-   ```
+
+```
 git clone https://github.com/ankitkr88588/Magisk-bot/
    ```
 2. Navigate to the Magisk-bot directory:
