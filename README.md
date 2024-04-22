@@ -1,4 +1,9 @@
-#deploy to local system
+# Magisk boot patcher bot
+telegram bot to patch stock boot.img with your desired magisk apk
+
+
+# deploy to local system
+
 1. clone this repository   
 
 ```
@@ -18,4 +23,4 @@ chmod +x main.sh
 ```
 
 you can use the tmux package to run the bot in background 
-# Magisk-bot
+
