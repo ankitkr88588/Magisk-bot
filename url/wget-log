@@ -1,9 +1,0 @@
-riorOS_A13-arm64-bg  92%[=================>  ]   1001M  91.3KB/s    eta 3m 13s SuperiorOS_A13-arm6  92%[=================>  ]   1006M  93.4KB/s    in 37m 53s 
-
-2023-10-06 01:03:12 (453 KB/s) - Read error at byte 1054992000/1139061308 (Connection reset by peer). Retrying.
-
---2023-10-06 01:03:13--  (try: 2)  https://objects.githubusercontent.com/github-production-release-asset-2e65be/544888177/4502b297-90b4-4b32-9d72-d0b06119c056?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231006%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231006T072518Z&X-Amz-Expires=300&X-Amz-Signature=bc82a115bca6f223bb9a6722b787e1fbf179fac770e4ff9c310911e7fee10ca0&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=544888177&response-content-disposition=attachment%3B%20filename%3DSuperiorOS_A13-arm64-bgS-slim_20230905.img.xz&response-content-type=application%2Foctet-stream
-Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
-HTTP request sent, awaiting response... 401 Unauthorized
-
-Username/Password Authentication Failed.
