@@ -1,7 +1,5 @@
 #!/bin/bash
 
-file_path="zipper/zipper.py"
-replacement=$(pwd)
 
 # Replace all occurrences of /home/u209464 with the current directory in the file
 #sed -i "s#/home/u209602#$replacement#g" $file_path
@@ -12,7 +10,7 @@ source myenv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 declare -A processes
-processes["zipper.py"]="PORT=8000 python3 zipper/zipper.py"
+processes["zipper.py"]="python3 main.py"
 # Declare an associative array to track process PIDs
 declare -A pids
 
